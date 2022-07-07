@@ -2,7 +2,7 @@ from itertools import cycle
 
 class prox:
     def proxy_format(self, file):
-        if != file:
+        if os.path.exists(file) == False:
             return 'Provide a valid file.'
 
         with open(file, 'r') as temp_file:

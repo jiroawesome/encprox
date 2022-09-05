@@ -1,4 +1,4 @@
-# srcbpy
+# encprox
 A simple python library for formatting proxies.
 
 # Installation
